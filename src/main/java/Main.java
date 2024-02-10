@@ -14,7 +14,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) throws IOException {
         try {
-            Telegrambot bot1 = new Telegrambot("Foto_Universe_bot", "6785633687:AAFctehDaHtAMiJBv1phPLwVpQERZFwhwEQ");
+            Telegrambot bot1 = new Telegrambot("bot name", "telegram token");
         } catch (TelegramApiException e) {
             throw new RuntimeException(e);
         }
